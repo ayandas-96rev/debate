@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     display: flex;
     gap: 15%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 5%;
 }
@@ -127,6 +127,12 @@ button.spin {
 button.spin:hover,
 button.spin:active {
     box-shadow: inset 2px 2px 4px #350000, inset -2px -2px 4px #000000;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .popout {
@@ -266,7 +272,6 @@ main .spinner-container {
 }
 @media (max-width: 736px) {
     body {
-        justify-content: center;
         padding: 12px;
     }
 }
@@ -276,13 +281,6 @@ main .spinner-container {
     }
     .toss {
         right: -130px;
-    }
-}
-@media (max-width: 900px) {
-    aside {
-        position: fixed;
-        top: 0;
-        left: 0;
     }
 }
 .timer {
