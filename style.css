@@ -232,6 +232,11 @@ aside {
 main .spinner-container {
     margin-top: 80px;
 }
+@media(max-width: 400px) {
+    main .spinner-container {
+        margin-top: 24px;
+    }
+}
 @media (max-width: 736px) {
     body {
         justify-content: center;
