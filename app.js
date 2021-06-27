@@ -101,7 +101,7 @@ function playbuttonFunction() {
         }
         playButton.classList.add('pause');
         var timerInterval = setInterval(() => {
-            if (secVal == 60) {
+            if (secVal == 59) {
                 minVal++;
                 if (minVal == 2) {
                     midBell.play();
