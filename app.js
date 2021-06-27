@@ -168,6 +168,6 @@ document.querySelector('.panel-exit').onclick = () => {
     document.querySelector('.panel').classList.remove('show');
 };
 
-document.querySelector('.hidden-panel-for-mobile').ondbclick = function () {
+document.querySelector('.hidden-panel-for-mobile').ondblclick = function () {
     document.querySelector('.panel').classList.toggle('show');
 };
