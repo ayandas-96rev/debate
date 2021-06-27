@@ -12,8 +12,8 @@ document.querySelector('button.spin').onclick = function () {
     setTimeout(function () {
         document.querySelector('.spinner').style.transition = `4s`;
         let degrees = 0;
-        degrees = Math.ceil(Math.random() * 16) * 47;
-        degrees += 7200;
+        degrees = ((parseInt(Math.random() * 1000) % 10) % 4) * 90;
+        degrees += 7245;
         document.querySelector(
             '.spinner'
         ).style.transform = `rotateZ(${degrees}deg)`;
@@ -168,6 +168,6 @@ document.querySelector('.panel-exit').onclick = () => {
     document.querySelector('.panel').classList.remove('show');
 };
 
-document.querySelector('.hidden-panel-for-mobile').ondblclick = function () {
+document.querySelector('.hidden-panel-for-mobile').onclick = function () {
     document.querySelector('.panel').classList.toggle('show');
 };
