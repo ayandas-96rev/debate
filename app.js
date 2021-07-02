@@ -108,8 +108,6 @@ function playbuttonFunction() {
                 }
                 if (minVal == 3) {
                     longBell.play();
-                    clearInterval(timerInterval);
-                    playButton.classList.remove('pause');
                 }
                 secVal = 0;
             } else secVal++;
