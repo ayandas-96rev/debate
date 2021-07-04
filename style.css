@@ -283,6 +283,28 @@ main .spinner-container {
         right: -130px;
     }
 }
+@media (max-height: 600px) {
+    .spinner-container {
+        height: 60vh;
+        width: 60vh;
+    }
+    button.spin {
+        padding: 8px 50px;
+        font-size: 1.2rem;
+    }
+}
+@media (max-height: 500px) {
+    .spinner-container {
+        height: 50vh;
+        width: 50vh;
+    }
+    button.spin {
+        padding: 7px 40px;
+    }
+    .spinner-element {
+        font-size: 2rem;
+    }
+}
 .timer {
     color: #ccc;
 }
