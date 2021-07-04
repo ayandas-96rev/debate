@@ -292,6 +292,9 @@ main .spinner-container {
         padding: 8px 50px;
         font-size: 1.2rem;
     }
+    .arrow{
+        transform: scale(0.9);
+    }
 }
 @media (max-height: 500px) {
     .spinner-container {
@@ -303,6 +306,9 @@ main .spinner-container {
     }
     .spinner-element {
         font-size: 2rem;
+    }
+    .arrow{
+        transform: scale(0.8);
     }
 }
 .timer {
